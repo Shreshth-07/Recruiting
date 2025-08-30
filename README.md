@@ -79,16 +79,18 @@ python main.py
 ## File Structure
 
 
-Assignment/
-├── main.py                 # Main orchestrator
-├── config.py              # Configuration settings
-├── utils.py               # Utility functions
-├── compress_json.py       # JSON compression
-├── decompress_json.py     # JSON decompression  
-├── shortlist_candidates.py # Auto-shortlisting
-├── llm_evaluation_gemini.py # Gemini AI integration
-├── mock_llm_evaluation.py # Mock LLM (no API needed)
-├── requirements.txt       # Dependencies
-├── .env.example          # Environment template
-└── README.md            # This documentation
+Recruiting/
+├── main.py
+├── config.py
+├── utils.py
+├── compress_json.py
+├── decompress_json.py
+├── shortlist_candidates.py
+├── llm_evaluation_gemini.py
+├── mock_llm_evaluation.py
+├── create_sample_data.py
+├── debug_schema.py
+├── requirements.txt
+├── .env.example
+└── README.md
 
