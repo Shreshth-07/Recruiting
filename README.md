@@ -39,24 +39,20 @@ A complete contractor application system built on Airtable with AI-powered evalu
 
 ### Installation
 
-```bash
+
 # Clone or download project files
-git clone <repository-url>
+git clone https://github.com/Shreshth-07/Recruiting.git
 
 # Install dependencies
 pip install -r requirements.txt
-
-```
 
 ### Environment Setup
 
 Create a `.env` file with your credentials:
 
-```
 AIRTABLE_ACCESS_TOKEN=patRWoTtFVj4BSQWk.8bb1d4b5626d4ccfba03da5deef9ee8d14aeee52e08ee4518a8f9f19cd45e6fd
 AIRTABLE_BASE_ID=app3Ol96NiMglNFme
 GEMINI_API_KEY=YOUR_GEMINI_API
-```
 
 ### Airtable Setup
 
@@ -78,13 +74,11 @@ GEMINI_API_KEY=YOUR_GEMINI_API
 
 ### Complete Pipeline
 
-```
 python main.py
-```
 
 ## File Structure
 
-```
+
 Assignment/
 ├── main.py                 # Main orchestrator
 ├── config.py              # Configuration settings
@@ -97,4 +91,4 @@ Assignment/
 ├── requirements.txt       # Dependencies
 ├── .env.example          # Environment template
 └── README.md            # This documentation
-```
+
