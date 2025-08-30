@@ -51,7 +51,9 @@ pip install -r requirements.txt
 Create a `.env` file with your credentials:
 
 AIRTABLE_ACCESS_TOKEN=patRWoTtFVj4BSQWk.8bb1d4b5626d4ccfba03da5deef9ee8d14aeee52e08ee4518a8f9f19cd45e6fd
+
 AIRTABLE_BASE_ID=app3Ol96NiMglNFme
+
 GEMINI_API_KEY=YOUR_GEMINI_API
 
 ### Airtable Setup
